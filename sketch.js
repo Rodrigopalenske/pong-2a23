@@ -5,8 +5,8 @@ let diametro = 15;
 let raio = diametro / 2;
 
 // velocidade da bolinha
-let velocidadeXBolinha = 60;
-let velocidadeYBolinha = 60;
+let velocidadeXBolinha = 6;
+let velocidadeYBolinha = 6;
 
 // raquete
 let xRaquete = 5;
@@ -72,10 +72,10 @@ function mostraRaquete(x,y){
 
 function movimentaMinhaRaquete(){
   if(keyIsDown(UP_ARROW)){
-    yRaquete -= 100;
+    yRaquete -= 10;
   }
   if(keyIsDown(DOWN_ARROW)){
-    yRaquete += 100;
+    yRaquete += 10;
   }
 }
 
